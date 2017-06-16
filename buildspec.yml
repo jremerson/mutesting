@@ -8,5 +8,6 @@ phases:
 artifacts:
   files:
     - index.html
+    - test.html
     - mu.yml
     - Dockerfile
