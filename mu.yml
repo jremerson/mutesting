@@ -1,8 +1,11 @@
 environments:
 - name: dev
+    loadbalancer:
+      hostedzone: dev2.itdecoded.com
 - name: production
 service:
   name: mutesting
+  healthEndpoint: /
   port: 80
   pathPatterns:
   - /*
